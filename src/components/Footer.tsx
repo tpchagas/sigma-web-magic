@@ -10,8 +10,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center">
-              <span className="text-2xl font-bold text-sigma-neon neon-glow mr-2">Σ</span>
-              <span className="text-xl font-semibold text-white">Sigma Labs</span>
+              <img 
+                src="/lovable-uploads/3bd09b3b-0cb2-4256-b8bb-3074ebbb66a1.png" 
+                alt="Sigma Labs Logo" 
+                className="h-12 mb-2" 
+              />
             </div>
             <p className="text-sigma-muted max-w-xs">
               A maneira mais fácil de incorporar IA à sua empresa. Transforme sua operação com soluções inteligentes personalizadas.
