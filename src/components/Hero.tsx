@@ -58,7 +58,7 @@ const Hero = () => {
           >
             <div className="card-rotate-hover relative">
               <img 
-                src="/lovable-uploads/8b345a1e-eb00-4337-a2b3-de3fd3696684.png" 
+                src="/lovable-uploads/9ec3ca09-d61b-4b7f-9b99-226ae4a9947c.png" 
                 alt="Plataforma Sigma Labs" 
                 className="w-full h-auto rounded-xl shadow-2xl border border-sigma-light/50"
               />

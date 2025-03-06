@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full fixed top-0 z-50 transition-all duration-300 bg-sigma-dark/80 backdrop-blur-md border-b border-sigma-light">
+    <header className="w-full fixed top-0 z-50 transition-all duration-300 bg-sigma-dark border-b border-sigma-light/50">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -23,7 +23,7 @@ const Header = () => {
           </Link>
           
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-12">
             <Link to="/" className="text-white hover:text-sigma-neon transition-colors">
               Início
             </Link>
